@@ -25,3 +25,9 @@ print(f"floor of a 5.9 rounds it down : {math.floor(5.9)}") #5
 #calculate the circumference of a circle
 r = float(input("please enter the radius of the circle "))
 print(f"the circumference of the circle is {round(r*math.pi*2,2)} cm") # round to two digits
+
+
+a=float(input("gimme a"))
+b=float (input("gimme b"))
+c = math.sqrt(pow(a,2)+pow(b,2))
+print(f"the c is: {c}")
